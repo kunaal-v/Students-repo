@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Student Registration System</title>
+   
+   
+</head>
+<body>
+    <div class="trans"> </div>
+    <div class="underform"></div>
+    <h1 class="header index" style="color: white;">Enter Student Details</h1>
+    <img src="/Images/description.png" alt="description" height="30px" width="30px" class="img"> 
+    <div id="description">This website can store the students' data and show below. <br>
+    It is able to edit and delete the data that we have previously stored.</div>
+
+    <div class="enterdetails heading">
+        <form class="index text ">
+            <label for="name">Name   </label>
+        <input type="text" name="name" id="name" class="hW" placeholder="Enter Student's Name" autocomplete="off"><br><br>
+        <label for="ID">Student ID</label>
+        <input type="number" name="ID" id="ID" class="hW" placeholder="Enter Student's ID"><br><br>
+        <label for="email">Email </label>
+        <input type="email" name="Email" id="email" class="hW" placeholder="Enter Student's Email" autocomplete="off"><br><br>
+        <label for="contact">Phone no.</label>
+        <input type="number" name="contact" id="contact" class="hW" placeholder="Enter Student's Contact" min="1111111111" max="9999999999"><br><br>
+        
+        <button type="submit" class="btn" value="Enter">Submit</button>
+        </form>
+        
+    </div>
+    <div> <h1 style="margin-left:600px ;"> Students' Record</h1></div>
+    <div class="recordlist index">
+        <div class="itemall heading" style="background-color: rgb(24, 196, 150);">
+            <li >Name</li>
+            <li>ID</li>
+            <li>Email</li>
+            <li>Contact</li>
+            <li>Actions</li>
+        </div>
+
+    </div>
+    
+</body>
+</html>
